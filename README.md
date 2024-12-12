@@ -23,3 +23,20 @@ This is the executable version of "App Regulator"
 1) Admin Access: It Allows To Ask For Admin Access Which Increases Its Authority To Block Applications
 2) Camouflage: It Allows The User To Fake Admin Permission. Simply, It Makes It Appear As If a Different
                App Is Running With Elevated Privileges But In Reality, It Is The One Running As Admin
+
+# Windows Server OS Behaviour
+If you have a star topology where you installed Windows Server, the camouflage technique gets really handy.
+I say don't do it but if you did it, granting this app the administrator access can allow you to block applications
+from one computer to all the computers within the system. Eg: If there are 40 computers connected to a switch
+including the administrator computer where one OS is shared between all, you can use any computer to run this app
+as admin and block applications in the entire 40 computers. There won't be any cmd popup or powershell popup; it
+simply looks like Magic to others. BUT, TRY IT AT YOUR OWN RISK!!
+
+# Virus Issue
+In my 3 days of coding this application, I got no issues of viruses. But once I downloaded the same application
+from my github profile, it immediately got removed by my Windows Defender claiming its a Virus. But I assure you
+that its not. Its a simple executable made from "Pyinstaller" using Python. You can also see the VirusTotal Scan: https://www.virustotal.com/gui/file/e4866a8b8326211baa71958bc2e4e9fc91278eca7a541a109733a11dd3d47fad/behavior
+
+Inside Virustotal, only 5 of the antiviruses detect it as a virus. If you understand python codes, you can also look
+for the ".py" version of this application where I've uploaded the entire code of this app. Ultimately, it depends upon
+you whether to download it or not. Thank You.
