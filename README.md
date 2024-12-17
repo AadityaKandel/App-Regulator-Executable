@@ -23,6 +23,7 @@ This is the executable version of "App Regulator"
 1) Admin Access: It Allows To Ask For Admin Access Which Increases Its Authority To Block Applications
 2) Camouflage: It Allows The User To Fake Admin Permission. Simply, It Makes It Appear As If a Different
                App Is Running With Elevated Privileges But In Reality, It Is The One Running As Admin
+3) Scan Apps: It Allows The User To Scan Apps Within The System For More Convenient Targer Selection
 
 # Windows Server OS Behaviour
 If you have a star topology where you installed Windows Server, the camouflage technique gets really handy.
